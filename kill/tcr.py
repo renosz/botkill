@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(token='ErsqQFrwAGH9guY3fhK3.nPXWbfL33mHlhYv4M+5yOW.AVzGNQBDaHZv9ZVv7+FP/cYaFTyp97f0DTLfygGBoMk=')
+cl.login(token='AuthTokenAnda')
 cl.loginResult()
 
 print "login success"
@@ -19,6 +19,10 @@ Bots=[mid]
 oa='u02ce6a7e0a53802a4e7d3eb24101e53e'
 admin=["u3ac8d486c3e1a75b0c8d4284feae285f","uebcbec2df1e585a2bc487d71de2b26fb","u7e95090c82f6d35273ac41dc8ff91bb6"]
 zonaaman=['c9d3173d930cccb79659126b060ce0b3e']
+try:
+    cl.sendText('uebcbec2df1e585a2bc487d71de2b26fb', 'Login in DESKTOP3TT1SRen-x64')
+except:
+    pass
 wait = {
     'contact':True,
     'autoJoin':True,
